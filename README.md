@@ -30,7 +30,7 @@ Dickey Fuller Result
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index2.png)
 
 ### Preparing Series before forecasting 
-* Apply log transformation to the series
+Apply log transformation to the series
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index7.png)
 
 ### AUTO ARIMA Model Building
@@ -40,8 +40,8 @@ Dickey Fuller Result
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index4.png)
 
 ### FBProphet Forecast and Components
-* Forecasting
+Forecasting
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index5.png)
 
-* Components
+Components
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index5.png)
