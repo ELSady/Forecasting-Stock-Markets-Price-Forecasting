@@ -27,7 +27,7 @@ Dickey Fuller Result
 ### Decomposition 
 
 ### Preparing Series before forecasting 
-* Apply log transfomration to the series
+* Apply log transformation to the series
 
 
 ### AUTO ARIMA Model Building
