@@ -10,7 +10,7 @@
 **Packages**: pandas, numpy, datetime, matplotlib, seaborn, statsmodel, pmdarima, fbprphet.
 
 ### Time Series Visualization
-![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index1.png" Time Series Visualization")
+[alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index1.png)
 
 ### Stasionary Checking
 
