@@ -10,10 +10,10 @@
 **Packages**: pandas, numpy, datetime, matplotlib, seaborn, statsmodel, pmdarima, fbprphet.
 
 ### Time Series Visualization
-![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index1.png)
+![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index.png)
 
 ### Stasionary Checking
-![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index2.png)
+![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index1.png)
 
 Looking at at the big difference between rolling mean and its standard deviation, it is very clear that the serires is not stationary. The p value is also greater than 0.05 then, the null hypothesis (time serires stationary) is rejected.
 
@@ -27,7 +27,7 @@ Dickey Fuller Result
 > critical value (10%)             -2.567646 <br>
 
 ### Decomposition 
-
+![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index2.png)
 
 ### Preparing Series before forecasting 
 * Apply log transformation to the series
