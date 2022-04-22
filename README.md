@@ -41,7 +41,9 @@ Apply log transformation to the series
 
 ### FBProphet Forecast and Components
 Forecasting <br>
+
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index5.png) <br>
 
 Components <br>
+
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index6.png)
