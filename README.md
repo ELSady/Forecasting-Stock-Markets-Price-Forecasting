@@ -12,6 +12,8 @@
 ### Time Series Visualization
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index.png)
 
+As per the above plot, the prices of Nvidia stock market started rising at around 2016 - 2017. Mo surprise because at this time period cryptomining is becoming a thing.
+
 ### Stasionary Checking
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index1.png)
 
@@ -29,14 +31,19 @@ Dickey Fuller Result
 ### Decomposition 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index2.png)
 
+The trend and seasonily decmoposition. The existence of those 2 componnets indicated that the series is not stasionary
+
 ### Preparing Series before forecasting 
 Apply log transformation to the series
+
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index7.png)
 
 ### AUTO ARIMA Model Building
+
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index3.png)
 
 ### Arima Forecast
+
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index4.png)
 
 ### FBProphet Forecast and Components
