@@ -9,7 +9,7 @@
 ### Code and Resources used
 * **Packages**: pandas, numpy, datetime, matplotlib, seaborn, statsmodel, pmdarima, fbprphet.
 
-### Project Hihglight
+### Project Highlight
 
 ### Time Series Visualization
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index.png)
@@ -51,10 +51,6 @@
 * **Theoretical Quantiles**: Mostly the dots fall perfectly in line with the red line. Any significant deviations would imply the distribution is skewed.
 * **Correlogram**: The Correlogram, (or ACF plot) shows the residual errors are not autocorrelated. The ACF plot would imply that there is some pattern in the residual errors which are not explained in the model.
 
-### Arima Forecast
-
-![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index4.png)
-
 ### FBProphet Forecast and Components
 * Forecasting with FBProphet <br>
 
@@ -67,4 +63,4 @@
 FBPropet can return each of the series componnets such as trend, seasonality (weekly and yearly) after forecasting. Here the insight we can get from this Nvidia stock market price over the years :
 * Nvidia stock market started increasing at the start of 2016. Interestingly, this is where the year they release the Pascal architechture GPU, the most popular GPU variatns which is still holds up till this moment in time. Another thing worth mentioning also because the rise of crypto currencies value and cryptomining that year directly affects the pricing of said GPU.
 * On weekly basis, on average friday, saturday and sunday prices are at the highest, meanwhile monday is the lowest during the week.
-* On monthly basis,
+* On monthly basis, on average the highest price are netween november to january, while the rest of the months seems to fluctutate around a certain price range.
