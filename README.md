@@ -43,6 +43,12 @@
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index3.png)
 
+* ARIMA model plot interpretation:
+* **Standardized residual**: The residual errors  fluctuate around a mean of zero and have a uniform variance.
+* **Histogram**: The density plot suggest normal distribution with mean slighlty shifted towards right.
+* **Theoretical Quantiles**: Mostly the dots fall perfectly in line with the red line. Any significant deviations would imply the distribution is skewed.
+* **Correlogram**: The Correlogram, (or ACF plot) shows the residual errors are not autocorrelated. The ACF plot would imply that there is some pattern in the residual errors which are not explained in the model. So we will need to look for more X’s (predictors) to the model.
+
 ### Arima Forecast
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index4.png)
