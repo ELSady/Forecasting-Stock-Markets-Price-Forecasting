@@ -34,11 +34,12 @@
 * The trend and seasonily decmoposition. The existence of those 2 componnets indicated that the series is not stasionary
 
 ### Preparing Series before forecasting 
-* Apply log transformation to the series
+* Apply log transformation to the series. It is done to remove the trend components and flatten out the its standard deviation.
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index7.png)
 
 ### AUTO ARIMA Model Building
+* Automated ARIMA model for the series. AUTO ARIMA simplifies the user to define which parameters, the likes of AR (p), MA (q) and differentitation (d) suit the series best.
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index3.png)
 
