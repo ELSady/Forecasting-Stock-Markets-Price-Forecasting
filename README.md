@@ -7,19 +7,19 @@
 * Build Forecasting Model and predict the Prices.
 
 ### Code and Resources used
-**Packages**: pandas, numpy, datetime, matplotlib, seaborn, statsmodel, pmdarima, fbprphet.
+* **Packages**: pandas, numpy, datetime, matplotlib, seaborn, statsmodel, pmdarima, fbprphet.
 
 ### Time Series Visualization
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index.png)
 
-As per the above plot, the prices of Nvidia stock market started rising at around 2016 - 2017. Mo surprise because at this time period cryptomining is becoming a thing.
+* As per the above plot, the prices of Nvidia stock market started rising at around 2016 - 2017. Mo surprise because at this time period cryptomining is becoming a thing.
 
 ### Stasionary Checking
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index1.png)
 
-Looking at at the big difference between rolling mean and its standard deviation, it is very clear that the serires is not stationary. The p value is also greater than 0.05 then, the null hypothesis (time serires stationary) is rejected.
+* Looking at at the big difference between rolling mean and its standard deviation, it is very clear that the serires is not stationary. The p value is also greater than 0.05 then, the null hypothesis (time serires stationary) is rejected.
 
-Dickey Fuller Result
+* Dickey Fuller Result
 > Test Statistics                   0.495121 <br>
 > p-value                           0.984724 <br>
 > No. of lags used                  4.000000 <br>
@@ -31,10 +31,10 @@ Dickey Fuller Result
 ### Decomposition 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index2.png)
 
-The trend and seasonily decmoposition. The existence of those 2 componnets indicated that the series is not stasionary
+* The trend and seasonily decmoposition. The existence of those 2 componnets indicated that the series is not stasionary
 
 ### Preparing Series before forecasting 
-Apply log transformation to the series
+* Apply log transformation to the series
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index7.png)
 
@@ -47,10 +47,10 @@ Apply log transformation to the series
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index4.png)
 
 ### FBProphet Forecast and Components
-Forecasting <br>
+* Forecasting <br>
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index5.png) <br>
 
-Components <br>
+* Components <br>
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index6.png)
