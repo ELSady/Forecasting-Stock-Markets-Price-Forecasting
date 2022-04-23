@@ -45,19 +45,26 @@
 
 * ARIMA model plot interpretation:
 * **Standardized residual**: The residual errors  fluctuate around a mean of zero and have a uniform variance.
-* **Histogram**: The density plot suggest normal distribution with mean slighlty shifted towards right.
+* **Histogram**: The density plot suggest normal distribution with mean.
 * **Theoretical Quantiles**: Mostly the dots fall perfectly in line with the red line. Any significant deviations would imply the distribution is skewed.
-* **Correlogram**: The Correlogram, (or ACF plot) shows the residual errors are not autocorrelated. The ACF plot would imply that there is some pattern in the residual errors which are not explained in the model. So we will need to look for more X’s (predictors) to the model.
+* **Correlogram**: The Correlogram, (or ACF plot) shows the residual errors are not autocorrelated. The ACF plot would imply that there is some pattern in the residual errors which are not explained in the model.
 
 ### Arima Forecast
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index4.png)
 
 ### FBProphet Forecast and Components
-* Forecasting <br>
+* Forecasting with FBProphet <br>
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index5.png) <br>
 
 * Components <br>
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index6.png)
+
+FBPropet can return each of the series componnets such as trend, seasonality and residual after forecasting. Here the insight we can get from this Nvidia stock market price over the years :
+* 1
+* 2
+* 3
+* 4
+*
