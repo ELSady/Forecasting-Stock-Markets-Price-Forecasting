@@ -62,7 +62,7 @@
 
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index6.png)
 
-FBPropet can return each of the series componnets such as trend, seasonality and residual after forecasting. Here the insight we can get from this Nvidia stock market price over the years :
+FBPropet can return each of the series componnets such as trend, seasonality (weekly and yearly) after forecasting. Here the insight we can get from this Nvidia stock market price over the years :
 * 1
 * 2
 * 3
