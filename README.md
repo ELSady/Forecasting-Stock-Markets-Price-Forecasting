@@ -9,6 +9,8 @@
 ### Code and Resources used
 * **Packages**: pandas, numpy, datetime, matplotlib, seaborn, statsmodel, pmdarima, fbprphet.
 
+### Project Hihglight
+
 ### Time Series Visualization
 ![alt text](https://github.com/ELSady/Forecasting-Stock-Markets-Price-Forecasting/blob/main/index.png)
 
@@ -65,6 +67,4 @@
 FBPropet can return each of the series componnets such as trend, seasonality (weekly and yearly) after forecasting. Here the insight we can get from this Nvidia stock market price over the years :
 * Nvidia stock market started increasing at the start of 2016. Interestingly, this is where the year they release the Pascal architechture GPU, the most popular GPU variatns which is still holds up till this moment in time. Another thing worth mentioning also because the rise of crypto currencies value and cryptomining that year directly affects the pricing of said GPU.
 * On weekly basis, on average friday, saturday and sunday prices are at the highest, meanwhile monday is the lowest during the week.
-* On monthly basis, on average 
-* 4
-*
+* On monthly basis,
